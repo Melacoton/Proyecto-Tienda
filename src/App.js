@@ -6,7 +6,6 @@ import Categorias from './Categorias';
 /*En este archivo usamos los componentes como etiquetas para que se vean en la pagina final,
 para esto los importamos y los metemos dentro de la funcion "App", 
 e importamos los estilos generales de la pagina*/
-
 function App() {
   return (
    <div>

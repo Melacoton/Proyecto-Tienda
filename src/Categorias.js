@@ -1,5 +1,4 @@
 import React from 'react';
-import './Archivos css/categorias.css';
 
 //lo pongo asi para que ya quede dsp lo cambiamos de lugar cuando este lo de las rutas
 function Categorias(){

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Archivos css/imagen.css';
 
 export default function Imagen(){
     return(

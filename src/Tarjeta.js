@@ -1,5 +1,4 @@
 import React from 'react'; 
-import './Archivos css/tarjeta';
 
 //Las tarjetas son para los productos dsp 
 const Tarjeta = (props) => {
