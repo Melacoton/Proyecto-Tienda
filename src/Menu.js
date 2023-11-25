@@ -19,8 +19,8 @@ return (
   </div>
   <div className="buscador">
     <form action="buscar.php" method="get">
-      <input type="text" name="q" placeholder="Buscar..."/>
-      <button type="submit"><i class="fas fa-search"></i></button>
+      <input type="text" name="buscar" placeholder="Buscar..."/>
+      <button type="submit"></button>
     </form>
   </div>
 </header>

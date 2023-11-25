@@ -1,5 +1,4 @@
 import React from 'react';
-
 export default function Imagen(){
     return(
         /*Creamos un div con una imagen decorativa dentro y poderle dar estilo con css*/
