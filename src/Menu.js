@@ -1,7 +1,12 @@
 import React from "react";
+import './Archivos css/menu.css';
+
 function Menu() {
 return (
-    <header>
+  /*La etiqueta header contiene toddo el menu de navegacion*/
+  /*Contiene una imagen del logo dentro de un div, otro div con una lista
+  para agregar la navegacion, y otro div que contiene la barra de busqueda dentro de un formulario*/
+  <header>
   <div className="logo">
   <img src="ropa.jpg" alt="Logo de la tienda"/>
   </div>
@@ -18,9 +23,6 @@ return (
       <input type="text" name="q" placeholder="Buscar..."/>
       <button type="submit"><i class="fas fa-search"></i></button>
     </form>
-  </div>
-  <div className="carrito">
-    <a href="carrito.html"><i class="fas fa-shopping-cart"></i></a>
   </div>
 </header>
 );

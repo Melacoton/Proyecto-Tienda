@@ -1,0 +1,11 @@
+
+.imagen {
+    /*Acomodo la imagen docorativa:display:
+    Acomodo el tamaño, le agrego borde redondeado, una sombra y un margen*/
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(54, 156, 156);
+    margin: auto;
+    position: relative;
+  }
+  

@@ -1,218 +1,24 @@
 body{
+  /*Acomodamos la apriencia de la pagina en general:
+  le quitamos el margen y el relleno, le agregamos color al fondo y al texto,
+  agregamos margen inferior, alineamos el texto, y le cambiamos la letra*/
   margin: 0;
   padding: 0;
   background: rgb(6, 41, 41);
-  margin-bottom: 3px;
   margin-bottom:7px;
   text-align: center;
   color:beige;
-}
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: rgb(3, 20, 20);
-  color: white;
   font-family: 'Roboto', sans-serif;
-  height: 80px;
-}
-
-.logo {
-  margin-left: 20px;
-}
-
-.logo img {
-  height: 60px;
-  border-radius: 5px
-}
-
-.menu {
-  flex: 4;
-}
-
-.menu ul {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
-
-.menu ul li {
-  margin: 0 15px;
-}
-
-.menu ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  padding:2px;
-}
-
-.menu ul li a:hover {
-  color: #f0f0f0;
-}
-
-.buscador {
-  margin-right: 20px;
-}
-
-.buscador form {
-  display: flex;
-}
-
-.buscador form input {
-  border: none;
-  outline: none;
-  padding: 10px;
-  border-radius: 20px 0 0 20px;
-}
-
-.buscador form button {
-  border: none;
-  outline: none;
-  padding: 10px;
-  border-radius: 0 20px 20px 0;
-  background: #333;
-  color: white;
-  cursor: pointer;
-}
-
-.menu ul li:hover{
-	background:rgb(6, 41, 41);
-	border-radius: 15px;
-}
-
-.card {
-  width: 185px;
-  height: 160px;
-  border-radius: 10px;
-  margin: 30px;
-  margin-top:100px;
-}
-
-.card img {
-  width: 100%;
-  height: 100%;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  padding-bottom: 0px;
-  box-shadow: 8px 0px 8px rgb(6, 27, 41);
-}
-
-.card-body {
-  background-color:rgb(3, 20, 20);
-  padding: 2px;
-  text-align: center;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  box-shadow: 8px 0px 8px rgb(6, 27, 41);
-}
-
-.card-title {
-  font-family: Arial, sans-serif;
-  font-size: 20px;
-  text-align: center;
-  color: rgb(244, 204, 160);
-}
-
-.card-text {
-  font-family: Verdana, sans-serif;
-  font-size: 18px;
-  text-align: center;
-  color: rgb(244, 204, 160);
-}
-
-button {
-  background-color: rgb(10, 46, 46, 0.402);
-  border: none;
-  color:  white;
-  font-size: 16px;
-  padding: 3px;
-  padding-left:4px;
-  padding-right:4px;
-  margin: 3px;
-  margin-bottom: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: rgba(197, 252, 252, 0.385);
-}
-
-button:active {
-  background-color: rgb(7, 65, 88);
-  transform: translateY(2px);
 }
 
 hr{
+  /*Linea horizontal, amrgen y color*/
 	margin:60px;
 	color:rgb(244, 204, 160);
 }
 
-.mejor{
-	background:rgb(3, 20, 20);
-	border-radius: 10px;
-	width:50%;
-	height:50%;
-	margin-left:25%;
-	font-size:13px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.best{
-	text-align: center;
-	color: white;
-}
-
-.imagen {
-  width: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: auto;
-  position: relative;
-}
-
-.slide-inner {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  height: calc( 300px + 3em);
-}
-
-
 a{
+  /*Le quitamos el estilo predeterminado a los links*/
   text-decoration: none;
   color: black;
-}
-
-.cont1{
-  display: flex; 
-  justify-content: space-around;
-  width: auto;
-}
-
-.articulo{
-  width: 300px;
-  height: 300px;
-  border-radius: 15px;
-  border-color: rgb(3, 20, 20);
-  margin: 10px;
-}
-
- .bCompra{
-  border-radius: 10px;
-  border-color: white;
-  background-color: white;
-  text-align: center;
-  text-transform: initial;
-  padding:1%;
-  margin-bottom: 10px;
-
- }
-
-.cate{
-  background-color: rgb(3, 20, 20);
-  border-radius: 16px;
 }

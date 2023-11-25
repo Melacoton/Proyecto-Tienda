@@ -1,0 +1,74 @@
+  header {
+    /*Acomodar y centrar todo*/ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*Asignarle color y cambiar el tipo de letra*/
+    background: rgb(3, 20, 20);
+    color: white;
+  }
+  
+  .logo img {
+    /*Cambiar el tamaño de la imagen para que sea mas chica y agregarle borde redondeado*/
+    height: 60px;
+    border-radius: 7px;
+    /*Agregarle margen izquierdo para que no este tan pegado*/
+    margin-left: 10px;
+  }
+  
+  .menu {
+    /*Hace que el menu sea flexible y que ocupe todo el espacio segun su tamaño en 4*/
+    flex: 4;
+  }
+  
+  .menu ul {
+    /*Acomodo la lista (Productos, carrito, log in y home)*/
+    display: flex;
+    justify-content: center;
+    /*Quito el estilo predeterminado*/
+    list-style: none;
+  }
+  
+  .menu ul li a {
+    /*Le agrego estilo a los enlaces de los items de la lista*/
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding:2px;
+     /*Hace que cada item de la lista se separe entre si con un margen izquierdo y derecho de 15px*/
+     margin: 0 15px;
+  }
+
+  .menu ul li:hover{
+    /*Le agrego un fondo a los enlaces para cuando el cursos pase por arriba*/
+    background:rgb(6, 41, 41);
+    border-radius: 15px;
+  }
+
+  
+  .buscador form{
+    /*Acomodo el buscador y le doy un margen*/
+    display: flex;
+    margin-right: 15px;
+  }
+  
+  .buscador form input {
+    /*Acomodo la parte blanca del buscador: 
+    quito el borde, le agrego relleno, le agrego un borde redondeado y le quito el delineado predeterminado*/
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+  }
+  
+  .buscador form button {
+    /*Acomodo la parte gris del buscador, es decir, el boton*/
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    background: #333;
+    color: white;
+    cursor: pointer;
+  }
