@@ -6,7 +6,6 @@ export default function SALE(){
 return(
     <div>
         <Menu/>
-    <div>
     <h1 className="Titulo">SALE 50% desc</h1>
         <hr/>
         <section className="cont1">
@@ -27,7 +26,6 @@ return(
         <Tarjeta img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQxQCYSd0Uf7S2NU4-6L-fXe2BfpRu32A2Y0L2N0IjcBGR1AzR_Fe-JHz0pK8BMwREbjY&usqp=CAU" alt="Pantalon" marca="Pant corazones"  precio="$10.000"/>
         <Tarjeta img="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRBoL4dA4sxGRrDnjNO61jAGmztWJLcX5XLsttlElDws-17Oxu3NENXKjnpxb_tfUobUSwKB4fpUQlYiY9vqwmxA-P193Q-Z579SBYp0NKfFR1K9f4LYYqfZA&usqp=CAE" alt="Abrigo" marca="Disney 100 años"  precio="$30.000"/>
         </section>
-    </div>
     </div>
 );
 }

@@ -6,7 +6,7 @@ export default function Abrigos(){
 return(
     <div>
         <Menu/>
-    <div>
+    
     <h1 className="Titulo">ABRIOGOS-BUZOS</h1>
         <hr/>
         <section className="cont1">
@@ -26,7 +26,6 @@ return(
         <Tarjeta img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOq5_GHX0OiD6N6pIWRbevoHUPZU5SLG5vgw&usqp=CAU" alt="Cardigan" marca="Cardigan a mano"  precio="$10.000"/>
         <Tarjeta img="https://crossclothing.com.ar/wp-content/uploads/2023/07/4x5-BUZO-EGOBLACK-F.jpg" alt="Buzo" marca="Buzo black"  precio="$30.000"/>
         </section>
-    </div>
     </div>
 );
 }

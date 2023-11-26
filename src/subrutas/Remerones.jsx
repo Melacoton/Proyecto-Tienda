@@ -6,7 +6,6 @@ export default function Remerones(){
 return(
     <div>
         <Menu/>
-    <div>
     <h1 className="Titulo">REMERONES</h1>
         <hr/>
         <section className="cont1">
@@ -27,7 +26,6 @@ return(
         <Tarjeta img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLRIpZ-D3nU_irQv8W1myH90mHMnaBKHMI1A&usqp=CAU" alt="Remerones" marca="Ghibli"  precio="$15.000"/>
         <Tarjeta img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTIAaMrN9A1HJPBfXW6nMBdrsZusGucDdlJw&usqp=CAU" alt="Remerones" marca="Osito"  precio="$15.000"/>
         </section>
-    </div>
     </div>
 );
 }

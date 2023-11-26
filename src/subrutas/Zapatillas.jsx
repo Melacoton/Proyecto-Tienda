@@ -6,7 +6,6 @@ export default function Zapatillas(){
 return(
     <div>
         <Menu/>
-    <div>
     <h1 className="Titulo">ZAPATILLAS</h1>
         <hr/>
         <section className="cont1">
@@ -27,7 +26,6 @@ return(
         <Tarjeta img="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS-WqzjW4YwkhIS10h86yQvn5eHCd7Nao9iJulMI8569Cn3JDOcucHRBsAOa4Z4UnCq3llWpYOZz62XomK2OqA3qwXeXzB_c1BNkOHVmGVC2IZjImwyWbrA&usqp=CAE" alt="Adidas model" marca="Adidas model"  precio="$10.000"/>
         <Tarjeta img="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS7dvTgU-PdTV8wKD8_ArLS51zAxV2Ly0mwWE8cPlZ2hMuptFE5N3JQ-cD84F8Y3ZF5y3VORc5v6m205ieI8megLRfWKTN7aT76kXciArCcv36Fyj_7VbVO&usqp=CAE" alt="Nike force 1" marca="Nike force 1"  precio="$20.000"/>
         </section>
-    </div>
     </div>
 );
 }

@@ -6,7 +6,6 @@ export default function Joggins(){
 return(
     <div>
         <Menu/>
-    <div>
     <h1 className="Titulo">PANTS-JOGGINS</h1>
         <hr/>
         <section className="cont1">
@@ -27,7 +26,6 @@ return(
         <Tarjeta img="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSOhMsgIdsbAXOCOqtRrCfh5X699N07PpXkWLbUbpZxyFY5IDKjluDRlvgHAzsMN_mna8cOO_64RBZk-iK2i9hmONDEsU97-4WSXeisB6A&usqp=CAE" alt="Pantalon" marca="Cargo black"  precio="$25.000"/>
         <Tarjeta img="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR8UU5f_Z6P3p3nBmoUV-BUMfqLSoLHgtoACKVVrKL5q20IRwQJ8AsYPSvIeH54ORSsx2b6oyYGwbSKMDDIKpTYnC3l1-qLLLAaE0RDVWk&usqp=CAE" alt="Pantalon" marca="Liviano pal verano"  precio="$20.000"/>
         </section>
-    </div>
     </div>
 );
 }

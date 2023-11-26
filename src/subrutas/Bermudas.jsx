@@ -6,7 +6,6 @@ export default function Bermudas(){
 return(
     <div>
         <Menu/>
-    <div>
     <h1 className="Titulo">BERMUDAS</h1>
         <hr/>
         <section className="cont1">
@@ -27,7 +26,6 @@ return(
         <Tarjeta img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrA1ZxH0R7uNX4A4ZhsHM0ghfDbkbVFtfI11r90K7M2pMEPSvlWWXoiBHzbNEhbo9ZKCA&usqp=CAU" alt="Bermuda" marca="Bermuda all street"  precio="$10.000"/>
         <Tarjeta img="https://ae01.alicdn.com/kf/Sa755c95dba8e44d3be60f9b02e208884y/Pantalones-cortos-de-mezclilla-s-lidos-para-mujer-dise-o-de-S-5XL-caliente-holgado-combinable.jpg" alt="Bermuda" marca="bermuda tirantes"  precio="$20.000"/>
         </section>
-    </div>
     </div>
 );
 }
