@@ -9,6 +9,7 @@ function Registro(){
           <form class="login-form">
             <input type="text" placeholder="usuario"/>
             <input type="password" placeholder="contraseña"/>
+            <input type="email" placeholder="email"/>
             <button>login</button>
             <p className="mensaje">Creadores: Maicenita & Melanie</p>
           </form>

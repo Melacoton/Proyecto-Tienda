@@ -130,8 +130,8 @@ header {
 /*TARJETA DEL PRODUCTO*/
 .card {
   /*Le definimos el tamaño, le agregamos un borde redondeado*/
-  width: 185px;
-  height: 160px;
+  width: 195px;
+  height: 185px;
   border-radius: 10px;
   /*margen general y un margen superior*/
   margin: 30px;
@@ -272,6 +272,7 @@ button:active {
   font-size: 40px;
   margin-top: 30px;
   margin-bottom: 0px;
+  box-shadow: 8px 0px 8px rgb(54, 156, 156);
 }
 
 .cat hr{
