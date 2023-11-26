@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonLink from './ButtonLink';
 
 function Menu() {
 return (
@@ -11,10 +12,10 @@ return (
   </div>
   <div className="menu">
     <ul>
-      <li><a href="inicio">Inicio</a></li>
-      <li><a href="productos">Productos</a></li>
-      <li><a href="Login">Log In</a></li>
-      <li><a href="compras">Mi carrito</a></li>
+      <li><ButtonLink to="/" text="Inicio"/></li>
+      <li><ButtonLink to="/Categorias" text="Productos"/></li>
+      <li><ButtonLink to="/Login" text="Log In"/></li>
+      <li><ButtonLink to="/MiCarrito" text="Mi carrito"/></li>
     </ul>
   </div>
   <div className="buscador">

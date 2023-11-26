@@ -13,11 +13,14 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+
 hr{
   /*Linea horizontal, margen y color*/
-	margin:60px;
-	color:rgb(244, 204, 160);
+  margin:60px;
+  color:rgb(244, 204, 160);
+  margin-bottom:30px;
 }
+
 
 a{
   /*Le quitamos el estilo predeterminado a los links*/
@@ -29,9 +32,14 @@ a{
 
 
 
+
+
+
+
+
 /*MENUU*/
 header {
-  /*Acomodar y centrar todo*/ 
+  /*Acomodar y centrar todo*/
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,6 +47,7 @@ header {
   background: rgb(3, 20, 20);
   color: white;
 }
+
 
 .logo img {
   /*Cambiar el tamaño de la imagen para que sea mas chica y agregarle borde redondeado*/
@@ -48,10 +57,12 @@ header {
   margin-left: 10px;
 }
 
+
 .menu {
   /*Hace que el menu sea flexible y que ocupe todo el espacio segun su tamaño en 4*/
   flex: 4;
 }
+
 
 .menu ul {
   /*Acomodo la lista (Productos, carrito, log in y home)*/
@@ -60,6 +71,7 @@ header {
   /*Quito el estilo predeterminado*/
   list-style: none;
 }
+
 
 .menu ul li a {
   /*Le agrego estilo a los enlaces de los items de la lista*/
@@ -72,11 +84,13 @@ header {
    margin: 0 15px;
 }
 
-.menu ul li:hover{
-  /*Le agrego un fondo a los enlaces para cuando el cursos pase por arriba*/
+
+/*
+.menu ul li:hover
   background:rgb(6, 41, 41);
   border-radius: 15px;
-}
+*/
+/*Le agrego un fondo a los enlaces para cuando el cursos pase por arriba*/
 
 
 .buscador form {
@@ -85,14 +99,16 @@ header {
   margin-right: 15px;
 }
 
+
 .buscador form input {
-  /*Acomodo el cuerpo del buscador: 
+  /*Acomodo el cuerpo del buscador:
   quito el borde, le agrego relleno, le agrego un borde redondeado y le quito el delineado predeterminado*/
   border: none;
   outline: none;
   padding: 10px;
   border-radius: 20px 0 0 20px;
 }
+
 
 .buscador form button {
   border: none;
@@ -103,6 +119,10 @@ header {
   color: white;
   cursor: pointer;
 }
+
+
+
+
 
 
 
@@ -118,6 +138,7 @@ header {
   margin-top:100px;
 }
 
+
 .card img {
   /*Limitamos el tamaño de las imagenes a la tarjeta*/
   width: 100%;
@@ -130,6 +151,7 @@ header {
   box-shadow: 8px 0px 8px rgb(6, 27, 41);
 }
 
+
 .card-body {
   /*Le asignamos un color, relleno y alinemaos el texto*/
   background-color:rgb(3, 20, 20);
@@ -141,6 +163,7 @@ header {
   box-shadow: 8px 0px 8px rgb(6, 27, 41);
 }
 
+
 .card-title {
   /*Le cambiamos la letra, el tamaño, el color y centramos*/
   font-family: Arial, sans-serif;
@@ -149,13 +172,15 @@ header {
   color: white;
 }
 
+
 .card-text {
   /*Estilizamos el precio*/
   font-family: Verdana, sans-serif;
   font-size: 18px;
   text-align: center;
-  color: rgb(244, 204, 160);
+  color: white;
 }
+
 
 button {
   background-color: rgb(10, 46, 46, 0.402);
@@ -171,14 +196,20 @@ button {
   cursor: pointer;
 }
 
+
 button:hover {
   background-color: rgba(197, 252, 252, 0.385);
 }
+
 
 button:active {
   background-color: rgb(7, 65, 88);
   transform: translateY(2px);
 }
+
+
+
+
 
 
 
@@ -198,41 +229,54 @@ button:active {
 
 
 
+
+
+
+
 /*CATEGORIAS*/
 .cont1{
-  /*Acomodo las categorias para que esten una al lado de la otra, les doy un tamaño y 
+  /*Acomodo las categorias para que esten una al lado de la otra, les doy un tamaño y
   le agrego un color al texto*/
-  display: flex; 
+  display: flex;
   justify-content: space-around;
   width: auto;
   color: rgb(3, 20, 20);
 }
 
+
 .articulo{
-  /*Acomodo las imagenes: 
+  /*Acomodo las imagenes:
   les doy un tamaño para que combinen con la caja, un borde, y un margen*/
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   border-radius: 15px;
   margin: 10px;
 }
 
-.bCompra{
-  /*le agrego estilo a los botones:
-  Un borde, color, centor el texto, le pongo relleno, y margen */
-  border-radius: 10px;
-  border-color: white;
-  background-color: white;
-  text-align: center;
-  text-transform: initial;
-  padding:1%;
-  margin-bottom: 10px;
-} 
 
 .cate{
   /*Le agrego estilo al div para que tenga un borde*/
   background-color: rgb(241, 244, 244);
   border-radius: 16px;
+}
+
+.text{
+  margin:0px;
+  padding:0px;
+  height: 38px;
+  margin-top: 5px;
+}
+
+.Titulo{
+  padding: 10px;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.cat hr{
+  margin-top: 0px;
+  color:rgb(244, 204, 160);
 }
 
 
@@ -247,7 +291,7 @@ button:active {
   margin: auto;
 }
 .formulario {
-  /*le definimos el color, el tamaño, el margen, relleno, alineamos el texto y le 
+  /*le definimos el color, el tamaño, el margen, relleno, alineamos el texto y le
   agregamos sombras*/
   background: white;
   width: 300px;
@@ -256,6 +300,7 @@ button:active {
   text-align: center;
   box-shadow: 4px 4px 10px 10px rgb(3, 20, 20);
 }
+
 
 .formulario input {
   /*Apariencia de los inputs*/
@@ -271,6 +316,7 @@ button:active {
   font-size: 14px;
 }
 
+
 .formulario button {
   /*Le cambiamos la letra, el fondo, y el tamaño*/
   text-transform: uppercase;
@@ -285,10 +331,12 @@ button:active {
   cursor: pointer;
 }
 
+
 .formulario button:hover{
   /*Cambiamos el fondo del boton cuando el cursor pase por arriba*/
   background: #278568;
 }
+
 
 .formulario .mensaje {
   /*Agregamos estilo al mensaje de abajo (margen, color y tamaño)*/
@@ -296,4 +344,5 @@ button:active {
   color: #b3b3b3;
   font-size: 14px;
 }
+
 

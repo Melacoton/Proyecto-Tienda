@@ -1,20 +1,24 @@
 import React from 'react';
+import Menu from '../Menu';
+import { Link } from "react-router-dom";
 
-/*Esto es para la interfaz log in, a todo esto se me complican las interfaces 
-poreso hago los componentes y fue, vos si sabes :))))*/ 
-function Registro(){
+export default function Login (){
     return(
+        <div>
+        <Menu/>
         <div class="login">
+            <Link to={"/Login"}>
         <div class="formulario">
           <form class="login-form">
             <input type="text" placeholder="usuario"/>
             <input type="password" placeholder="contraseña"/>
+            <input type="email" placeholder="email"/>
             <button>login</button>
             <p className="mensaje">Creadores: Maicenita & Melanie</p>
           </form>
         </div>
+        </Link>
+      </div>
       </div>
     );
 };
-
-export default Registro;
