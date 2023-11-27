@@ -1,7 +1,7 @@
 import React from "react";
 import ButtonLink from './ButtonLink';
 
-function Menu() {
+function Menu(props) {
 return (
   /*La etiqueta header contiene toddo el menu de navegacion*/
   /*Contiene una imagen del logo dentro de un div, otro div con una lista

@@ -7,7 +7,7 @@ export default function Login (){
         <div>
         <Menu/>
         <div class="login">
-            <Link to={"/Login"}>
+            <Link to={"/Form"}>
         <div class="formulario">
           <form class="login-form">
             <input type="text" placeholder="usuario"/>

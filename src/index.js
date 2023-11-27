@@ -17,7 +17,7 @@ import SALE from "./subrutas/SALE";
 import NewTemp from "./subrutas/NewTemp";
 
 
-import Login from "./rutas/Login";
+import Form from "./Form";
 import MiCarrito from "./rutas/MiCarrito";
 import Error from "./rutas/Error";
 
@@ -87,12 +87,12 @@ const router = createBrowserRouter([
 
   {
     path: "/Login", // Ruta de Login
-    element: <Login />
+    element: <Form />
   },
 
 
   {
-    path: "/Mi-Carrito", // Ruta de Login
+    path: "/MiCarrito", // Ruta de Login
     element: <MiCarrito />
   }
 ])

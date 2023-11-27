@@ -8,7 +8,7 @@ e importamos los estilos generales de la pagina*/
 function App() {
   return (
    <div>
-    <Menu/>
+    <Menu img="ropa.jpg"/>
     <Imagen/>
     <hr/>
    </div>

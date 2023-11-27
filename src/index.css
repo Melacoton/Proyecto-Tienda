@@ -273,6 +273,7 @@ button:active {
   margin-top: 30px;
   margin-bottom: 0px;
   box-shadow: 8px 0px 8px rgb(54, 156, 156);
+  color:white;
 }
 
 .cat hr{
@@ -280,6 +281,9 @@ button:active {
   color:rgb(244, 204, 160);
 }
 
+.Msj{
+ color: white;
+}
 
 
 
@@ -347,3 +351,11 @@ button:active {
 }
 
 
+.mensaje-grande{
+  color:rgb(3, 20, 20);
+  font-size: 30px;
+}
+
+.mensaje-chico{
+  color: rgb(12, 59, 59);
+}

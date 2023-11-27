@@ -5,7 +5,7 @@ import Menu from '../Menu';
 export default function Categorias(){
     return(
         <div class="categs"> {/* categs=Categorias, para no marear con la etiqueta de rutas "Categorias", colocar display: flex y asi solo acomodas solo 2 secciones */}
-            <Menu/>
+            <Menu img="ropa.jpg"/>
             <h1 className="Titulo">CATEGORIAS</h1>
             <hr className="cat"/>
            
